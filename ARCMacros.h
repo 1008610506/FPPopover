@@ -7,6 +7,8 @@
 
 #define FP_DEBUG
 
+#define test @"test"
+
 #if !defined(__clang__) || __clang_major__ < 3
     #ifndef __bridge
         #define __bridge
